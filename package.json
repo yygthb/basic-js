@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "single-test": "mocha ./test/sum-digits.test.js"
   },
   "repository": {
     "type": "git",
