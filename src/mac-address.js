@@ -17,7 +17,7 @@ const { NotImplementedError } = require('../extensions/index.js');
 function isMAC48Address(n) {
   if (n.length !== 17) return false;
 
-  return /^([0-9A-F]{2}[-]){5}[0-9A-F]{2}/.test(str);
+  return /^([0-9A-F]{2}[-]){5}[0-9A-F]{2}/.test(n);
 }
 module.exports = {
   isMAC48Address,
